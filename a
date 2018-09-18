@@ -1,0 +1,1 @@
+ls -l /sys/class/net/ | while read line; do echo $line; done
